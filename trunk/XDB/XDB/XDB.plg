@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XDB - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "XDB_EXPORTS" /Fp"Release/XDB.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\StudyCode\C++\DB\XDB\XDB\Stdafx.cpp"
+"E:\StudyCode\C++\DB\XDB\XDB\XDB.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/XDB.pdb" /machine:I386 /out:"Release/XDB.dll" /implib:"Release/XDB.lib" 
+".\Release\Stdafx.obj"
+".\Release\XDB.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp"
+<h3>Output Window</h3>
+Compiling...
+Stdafx.cpp
+XDB.cpp
+e:\studycode\c++\db\xdb\xdb\release\MSADO15.tlh(409) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Linking...
+   Creating library Release/XDB.lib and object Release/XDB.exp
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+XDB.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
