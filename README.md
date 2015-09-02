@@ -11,6 +11,8 @@ Code license:GNU Lesser GPL;
 	由于 VC 操作数据库相对比较麻烦,而 xdb 操作数据库非常方便,
 	本源码可以随意传播或者修改完善,旨在方便开发者使用.
 代码示例:
+
+
 	CXDBHelper m_db;
 	if ((m_db.GetInterface()==NULL)&&(m_db.CreateInstance()==false))
 	{
